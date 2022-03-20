@@ -31,16 +31,9 @@ func (e *Employee) GetName() string {
 }
 
 func main() {
+	// Constructor f1
 	e := Employee{}
-	e.id = 1
-	e.name = "Name1"
 	fmt.Printf("%v\n", e)
-	// e.SetId(5)
-	// fmt.Printf("%v", e)
-	// e.SetName("Name2")
-	// fmt.Printf("%v", e)
-	// fmt.Println(e.GetId())
-	// fmt.Println(e.GetName())
 
 	// CONSTRUCTOR FORMA 2
 	e2 := Employee{
